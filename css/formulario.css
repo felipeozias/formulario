@@ -22,6 +22,70 @@ h1{
     margin: 10px;
 }
 
-p{
+.descricao{
     text-align: center;
+    font-size: 16pt;
+    margin: 10px;
+}
+
+fieldset{
+    border: none;
+    margin-top: 10px;
+}
+
+fieldset label, fieldset p{
+    font-size: 15pt;
+}
+
+#desenvolvedor, #linguagens{
+    text-align: center;
+}
+
+#desenvolvedor p, #linguagens p{
+    font-weight: bold;
+    margin: 5px;
+}
+
+input{
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+#name, #email {
+    width: 100%;
+    height: 25px;
+    text-align: left;
+}
+
+#date{
+    width: 30%;
+    height: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+select{
+    height: 20px;
+    border-radius: 4px;
+}
+
+#btn_enviar{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(6, 199, 38);
+    border-radius: 4px;
+    font-size: 14pt;
+    margin: 20px;
+}
+
+#btn{
+    text-align: center;
+}
+
+input:focus{
+    background-color: rgb(164, 255, 128);
+}
+
+#btn_enviar:hover {
+    border: solid 4px rgb(109, 109, 109);
 }
