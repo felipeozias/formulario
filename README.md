@@ -6,7 +6,7 @@
 
 ### 🟠 ⚠ Esta página está passível de modificações que aprimore cada vez mais o código nela composto. ⚠ 
 
-### 🟢 <a href="https://wa.me/5584998472241" target="_blank">WhatsApp</a> 🟢
+### 🟢 <a target="_blank" href="https://wa.me/5584998472241">WhatsApp</a> 🟢
 
 </br>
 

@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(194, 219, 219);
+}
+
+main{
+    margin: 5% 20% 5%;
+    padding: 20px;
+    border:solid 1px black;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.descricao{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#name, #email{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#nome_email{
+    text-align: left;
+}
+
+div, fieldset{
+    margin-top: 5px;
+}
+
+fieldset{
+    text-align: center;
+    margin-bottom: 20px;
+    border: none;
+}
+
+select, optgroup, option{
+    background-color: white;
+    border-radius: px;
+}
+
+input{
+    border-radius: 4px;
+    background-color: white;
+}
+
+div   ut{
+    width: 50%;
+    text-align: center;
+}
+
+.linguagens input{
+    margin: 0 5px 0;
+}
+
+.linguagens p, .desenvolvedor p{
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+#enviar{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: green;
+}
+
+.btnenviar{
+    text-align: center;
+}
+
+#enviar:hover{
+    
+}
+
+#enviar:focus{
+    
+}
