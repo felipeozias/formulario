@@ -1,0 +1,27 @@
+
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 4% 20%;
+    background-color: #aeeef3;
+}
+
+main{
+    border: solid 1px black;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+p{
+    text-align: center;
+}

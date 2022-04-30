@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <p class="descricao">Preencha alguns dados para que possamos conhecer mais sobre você</p>
+
+        <!-- Formulário -->
+        <form>
+            <fieldset id="name_email">
+                <label for="name">Nome:</label><br>
+                <input type="text" name="name" id="name" required>
+                <br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label for="date">Data de nascimento:</label><br>
+                <input type="date" name="nascimento" id="date" required>
+            </fieldset>
+
+            <div>
+                <P>Estado</P>
+                <select name="estado" id="estado" required>
+                    <optgroup label="Norte">
+                        <option value="AM">AM</option>
+                        <option value="RR">RR</option>
+                        <option value="AP">AP</option>
+                        <option value="PA">PA</option>
+                        <option value="TO">TO</option>
+                        <option value="RO">RO</option>
+                        <option value="AC">AC</option>
+                    </optgroup>
+                    <optgroup label="Nordeste">
+                        <option value="MA">MA</option>
+                        <option value="PI">PI</option>
+                        <option value="CE">CE</option>
+                        <option value="RN">RN</option>
+                        <option value="PE">PE</option>
+                        <option value="PB">PB</option>
+                        <option value="SE">SE</option>
+                        <option value="AL">AL</option>
+                        <option value="BA">BA</option>
+                    </optgroup>
+                    <optgroup label="Centro-Oeste">
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="GO">GO</option>
+                    </optgroup>
+                    <optgroup label="Suldeste">
+                        <option value="SP">SP</option>
+                        <option value="RJ">RJ</option>
+                        <option value="ES">ES</option>
+                        <option value="MG">MG</option>
+                    </optgroup>
+                    <optgroup label="Sul">
+                        <option value="PR">PR</option>
+                        <option value="RS">RS</option>
+                        <option value="SC">SC</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <fieldset class="desenvolvedor">
+                <p>Marque o tipo de desenvolvedor você busca ser</p>
+                <input type="radio" name="tipo" id="front">
+                <label for="front">Front-end</label>
+
+                <input type="radio" name="tipo" id="back">
+                <label for="back">Back-end</label>
+
+                <input type="radio" name="tipo" id="full">
+                <label for="full">Full Stack</label>
+            </fieldset>
+
+            <fieldset class="linguagens">
+                <p>Marque as linguagens que bocê mais gosta ou entende</p>
+                <input type="checkbox" name="linguagem" id="html">
+                <label for="html">html</label>
+
+                <input type="checkbox" name="linguagem" id="css">
+                <label for="css">css</label>
+
+                <input type="checkbox" name="linguagem" id="javascript">
+                <label for="javascript">JavaScript</label>
+
+                <input type="checkbox" name="linguagem" id="php">
+                <label for="php">php</label>
+
+                <input type="checkbox" name="linguagem" id="python">
+                <label for="python">Python</label>
+
+                <input type="checkbox" name="linguagem" id="c++">
+                <label for="c++">C++</label>
+
+                <input type="checkbox" name="linguagem" id="java">
+                <label for="java">Java</label>
+
+                <input type="checkbox" name="linguagem" id="go">
+                <label for="go">GO</label>
+            </fieldset>
+
+            <button type="submit" id="btn_enviar">Enviar</button>
+
+        </form>
+    </main>
+
+</body>
+
+</html>
